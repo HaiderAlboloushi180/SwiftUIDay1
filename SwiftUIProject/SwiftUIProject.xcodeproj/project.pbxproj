@@ -14,6 +14,8 @@
 		D51138BF24EC1B8F00D2D67C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51138BE24EC1B8F00D2D67C /* Preview Assets.xcassets */; };
 		D51138C224EC1B8F00D2D67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51138C024EC1B8F00D2D67C /* LaunchScreen.storyboard */; };
 		D51138CA24EC5CE600D2D67C /* Athkar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51138C924EC5CE600D2D67C /* Athkar.swift */; };
+		D51138CC24EC680800D2D67C /* CW2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51138CB24EC680800D2D67C /* CW2.swift */; };
+		D51138D124EC6F3000D2D67C /* CW3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51138D024EC6F3000D2D67C /* CW3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D51138C124EC1B8F00D2D67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D51138C324EC1B8F00D2D67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D51138C924EC5CE600D2D67C /* Athkar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athkar.swift; sourceTree = "<group>"; };
+		D51138CB24EC680800D2D67C /* CW2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW2.swift; sourceTree = "<group>"; };
+		D51138D024EC6F3000D2D67C /* CW3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				D51138B524EC1B8A00D2D67C /* AppDelegate.swift */,
 				D51138B724EC1B8A00D2D67C /* SceneDelegate.swift */,
 				D51138B924EC1B8A00D2D67C /* ContentView.swift */,
+				D51138CB24EC680800D2D67C /* CW2.swift */,
+				D51138D024EC6F3000D2D67C /* CW3.swift */,
 				D51138BB24EC1B8F00D2D67C /* Assets.xcassets */,
 				D51138C024EC1B8F00D2D67C /* LaunchScreen.storyboard */,
 				D51138C324EC1B8F00D2D67C /* Info.plist */,
@@ -151,8 +157,10 @@
 			files = (
 				D51138B624EC1B8A00D2D67C /* AppDelegate.swift in Sources */,
 				D51138B824EC1B8A00D2D67C /* SceneDelegate.swift in Sources */,
+				D51138CC24EC680800D2D67C /* CW2.swift in Sources */,
 				D51138CA24EC5CE600D2D67C /* Athkar.swift in Sources */,
 				D51138BA24EC1B8A00D2D67C /* ContentView.swift in Sources */,
+				D51138D124EC6F3000D2D67C /* CW3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
