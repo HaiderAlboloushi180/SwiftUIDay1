@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var thekr = "سبحان الله"
+    @State var thekr = "بسم الله الرحمن الرحيم"
     var body: some View {
         ZStack{
             Image("BACKGROUND")
@@ -23,6 +23,7 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
             }
+            
             Text(thekr)
                 .font(.largeTitle)
                 .foregroundColor(.white)
