@@ -39,10 +39,11 @@ struct CW3_Previews: PreviewProvider {
 struct ThekrModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
+        .font(.custom("Cairo-Regular", size: 25))
         .foregroundColor(.white)
         .multilineTextAlignment(.center)
         .padding()
-            .animation(.interactiveSpring())
+        .animation(.interactiveSpring())
     }
 }
 
