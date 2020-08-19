@@ -10,7 +10,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State var thekr = "بسم الله الرحمن الرحيم"
-    
     var body: some View {
         ZStack{
             BG()
