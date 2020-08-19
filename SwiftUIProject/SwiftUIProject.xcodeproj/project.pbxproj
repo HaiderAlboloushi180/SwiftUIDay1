@@ -18,6 +18,7 @@
 		D51138D124EC6F3000D2D67C /* CW3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51138D024EC6F3000D2D67C /* CW3.swift */; };
 		D51138D324EC956A00D2D67C /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D51138D224EC956A00D2D67C /* Cairo-Regular.ttf */; };
 		D51138DF24EC9BCB00D2D67C /* AssignmentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51138DE24EC9BCB00D2D67C /* AssignmentWeather.swift */; };
+		D51138E124ED817000D2D67C /* AssignmentCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51138E024ED817000D2D67C /* AssignmentCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D51138D024EC6F3000D2D67C /* CW3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW3.swift; sourceTree = "<group>"; };
 		D51138D224EC956A00D2D67C /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
 		D51138DE24EC9BCB00D2D67C /* AssignmentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentWeather.swift; sourceTree = "<group>"; };
+		D51138E024ED817000D2D67C /* AssignmentCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				D51138CB24EC680800D2D67C /* CW2.swift */,
 				D51138D024EC6F3000D2D67C /* CW3.swift */,
 				D51138DE24EC9BCB00D2D67C /* AssignmentWeather.swift */,
+				D51138E024ED817000D2D67C /* AssignmentCalculator.swift */,
 				D51138BB24EC1B8F00D2D67C /* Assets.xcassets */,
 				D51138C024EC1B8F00D2D67C /* LaunchScreen.storyboard */,
 				D51138C324EC1B8F00D2D67C /* Info.plist */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51138E124ED817000D2D67C /* AssignmentCalculator.swift in Sources */,
 				D51138B624EC1B8A00D2D67C /* AppDelegate.swift in Sources */,
 				D51138DF24EC9BCB00D2D67C /* AssignmentWeather.swift in Sources */,
 				D51138B824EC1B8A00D2D67C /* SceneDelegate.swift in Sources */,

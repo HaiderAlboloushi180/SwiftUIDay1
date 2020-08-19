@@ -51,7 +51,7 @@ struct AssignmentWeather: View {
                 HStack{
                     VStack{
                         Text("Now")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "moon.stars.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -59,9 +59,10 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
+                    .padding(.bottom)
                     VStack{
                         Text("5AM")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "moon.stars.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -69,9 +70,10 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
+                    .padding(.bottom)
                     VStack{
                         Text("6AM")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "sunrise.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -79,9 +81,10 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
+                    .padding(.bottom)
                     VStack{
                         Text("7AM")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "cloud.sun.rain.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -89,9 +92,10 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
+                    .padding(.bottom)
                     VStack{
                         Text("8AM")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "moon.stars.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -99,9 +103,10 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
+                    .padding(.bottom)
                     VStack{
                         Text("9AM")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "moon.stars.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -109,9 +114,10 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
+                    .padding(.bottom)
                     VStack{
                         Text("10AM")
-                        .modifier(DiffTimesModifier())
+                        .modifier(WeatherModifier())
                         Image(systemName: "moon.stars.fill")
                             .foregroundColor(.white)
                         Text("22°")
@@ -119,7 +125,15 @@ struct AssignmentWeather: View {
                             .fontWeight(.light)
                     }
                     .padding(.leading)
-                    
+                    .padding(.bottom)
+                }
+                VStack{
+                    BottomOfPage()
+                    BottomOfPage()
+                    BottomOfPage()
+                    BottomOfPage()
+                    BottomOfPage()
+                    BottomOfPage()
                 }
             }
         }
@@ -150,10 +164,34 @@ struct HighestLowestModifier: ViewModifier {
     }
 }
 
-struct DiffTimesModifier: ViewModifier {
+struct WeatherModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
         .foregroundColor(.white)
         .font(.custom("", size: 17))
+    }
+}
+
+struct BottomPageModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .foregroundColor(.white)
+            .padding(.init(top: 0, leading: 10, bottom: 10, trailing: 10))
+    }
+}
+
+struct BottomOfPage: View {
+    var body: some View {
+        HStack{
+            Text("Wednsday").modifier(WeatherModifier())
+                .padding(.init(top: 0, leading: 10, bottom: 10, trailing: 10))
+            Spacer()
+            Image(systemName: "cloud.sun.rain.fill").modifier(BottomPageModifier())
+            Spacer()
+            Text("29").modifier(BottomPageModifier())
+            Text("24")
+                .foregroundColor(.init(red: 230.0, green: 230.0, blue: 230.0, opacity: 0.7))
+                .padding(.init(top: 0, leading: 10, bottom: 10, trailing: 10))
+        }
     }
 }
